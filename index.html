@@ -15,6 +15,7 @@
       property="og:image"
       content="https://tranleductinh.github.io/project3/imgs/about-meeting.jpg"
     />
+
     <title>Aximo - Creative Agency Tailwind Template</title>
     <title>Document</title>
     <link rel="stylesheet" href="./fonts/webfonts/inter/stylesheet.css" />
@@ -271,7 +272,9 @@
               </div>
               <div class="about__stats">
                 <div class="about__stat-one">
-                  <div class="about__stat-value">15+</div>
+                  <div class="about__stat-value">
+                    <div class="counter" data-count="15">0</div>
+                  </div>
                   <span class="about__stat-label">Years of experience</span>
                 </div>
                 <div class="divide">
@@ -1094,10 +1097,19 @@
     </footer>
     <script>
       AOS.init({
-        duration: 1100, // Thời gian hiệu ứng (ms)
-        easing: "ease-in-out", // Kiểu chuyển động
-        once: true, // Chỉ chạy hiệu ứng một lần
+        duration: 1100,
+        easing: "ease-in-out",
+        once: true,
+      });
+      $(document).ready(function () {
+        $(".counter").counterUp({
+          delay: 10,
+          time: 2000,
+        });
       });
     </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
   </body>
 </html>
