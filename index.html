@@ -23,6 +23,9 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
   </head>
   <body>
     <header class="header">
@@ -273,19 +276,23 @@
               <div class="about__stats">
                 <div class="about__stat-one">
                   <div class="about__stat-value">
-                    <div class="counter" data-count="15">0</div>
+                    <span class="counter" data-count="15">15</span>+
                   </div>
                   <span class="about__stat-label">Years of experience</span>
                 </div>
                 <div class="divide">
                   <div class="about__stat-two">
-                    <div class="about__stat-value">120k</div>
+                    <div class="about__stat-value">
+                      <span class="counter" data-count="120">120</span>k
+                    </div>
                     <span class="about__stat-label">Successful projects</span>
                   </div>
                 </div>
                 <div class="divide">
                   <div class="about__stat-three">
-                    <div class="about__stat-value">100%</div>
+                    <div class="about__stat-value">
+                      <span class="counter" data-count="100">100</span>%
+                    </div>
                     <span class="about__stat-label"
                       >Client satisfaction rate</span
                     >
@@ -1108,8 +1115,5 @@
         });
       });
     </script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
   </body>
 </html>

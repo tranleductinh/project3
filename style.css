@@ -472,6 +472,7 @@ h2 {
   font-size: var(--font-size-2xl);
   font-family: var(--font-family-primary);
   font-weight: 700;
+  display: f;
 }
 .about__stat-label {
   color: var(--color-accent);
@@ -1066,3 +1067,4 @@ h2 {
   transition-duration: 300ms;
   transform: scale(1.1, 1.1);
 }
+
