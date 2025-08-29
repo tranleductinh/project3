@@ -994,6 +994,7 @@ h2 {
 .contact__description {
   color: var(--color-accent);
   font-size: var(--font-size-md);
+  line-height: 1.42;
 }
 
 .contact__form-title {
